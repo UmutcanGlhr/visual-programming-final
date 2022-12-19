@@ -17,3 +17,6 @@ C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.KayıtoOl
 C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.SplashScreen.resources
 C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\bin\Debug\FontAwesome.Sharp.dll
 C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.Profilim.resources
+C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.Mağaza.resources
+C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.Buzdolabı.resources
+C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.CamasırMak.resources

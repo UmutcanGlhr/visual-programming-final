@@ -54,6 +54,18 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Buzdolabı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buzdolabı.Designer.cs">
+      <DependentUpon>Buzdolabı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CamasırMak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CamasırMak.Designer.cs">
+      <DependentUpon>CamasırMak.cs</DependentUpon>
+    </Compile>
     <Compile Include="GirişEkrani.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,7 +104,12 @@
     <Compile Include="teknomarkt-Anasayfa.Designer.cs">
       <DependentUpon>teknomarkt-Anasayfa.cs</DependentUpon>
     </Compile>
-    <Compile Include="Veri.cs" />
+    <EmbeddedResource Include="Buzdolabı.resx">
+      <DependentUpon>Buzdolabı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CamasırMak.resx">
+      <DependentUpon>CamasırMak.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GirişEkrani.resx">
       <DependentUpon>GirişEkrani.cs</DependentUpon>
     </EmbeddedResource>

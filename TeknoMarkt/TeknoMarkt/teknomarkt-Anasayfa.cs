@@ -27,13 +27,7 @@ namespace TeknoMarkt
 
         private void ıconButton3_Click(object sender, EventArgs e)
         {
-            Profilim prf = new Profilim();
-            prf.kapa();
-
-            this.Hide();
-            GirişEkrani grs = new GirişEkrani();
-            grs.ShowDialog();
-            this.Close();
+            Application.Exit();
         }
         
         private void teknomarkt_Anasayfa_Load(object sender, EventArgs e)
@@ -44,6 +38,15 @@ namespace TeknoMarkt
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void ıconButton2_Click(object sender, EventArgs e)
+        {
+            Mağaza mgz = new Mağaza();
+            this.Hide();
+            mgz.ShowDialog();
+            this.Close();
+            
         }
     }  
 }

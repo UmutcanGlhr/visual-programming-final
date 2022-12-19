@@ -91,6 +91,7 @@ namespace TeknoMarkt
             this.ıconButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.ıconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.ıconButton2.UseVisualStyleBackColor = true;
+            this.ıconButton2.Click += new System.EventHandler(this.ıconButton2_Click);
             // 
             // panel1
             // 
