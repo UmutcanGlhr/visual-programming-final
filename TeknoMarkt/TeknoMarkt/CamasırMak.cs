@@ -14,14 +14,14 @@ namespace TeknoMarkt
     public partial class CamasırMak : Form
     {
         object[] sayılar = new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" };
-        object[] sayılar1 = new object[] { "23", "24", "25", "26", "27", "28", "29", "30" };
+       
         MySqlConnection con = new MySqlConnection("Server=localhost;Database=teknomarkt;Uid=root;Pwd='mysql1234';");
         public CamasırMak()
         {
             InitializeComponent();
-            comboBox1.Items.AddRange(sayılar);
+           
             comboBox3.Items.AddRange(sayılar);
-            comboBox2.Items.AddRange(sayılar1);
+            
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -42,47 +42,17 @@ namespace TeknoMarkt
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int toplam;
-            int stok = Convert.ToInt32(comboBox3.Text);
-            con.Open();
-            MySqlCommand cmd = new MySqlCommand("select cmStok from camasirmak where cmAd = '" + textBox1.Text + "' AND cmModel = '" + textBox2.Text + "'", con);
-
-            int a = Convert.ToInt32(cmd.ExecuteScalar());
-
-            if (textBox1.Text == "" || textBox2.Text == "" || comboBox3.Text == "" || comboBox1.Text == "" || comboBox2.Text == "" || textBox4.Text == "" || textBox5.Text == "")
+            if (textBox1.Text!="" && textBox2.Text!="" && comboBox3.Text!="")
             {
-                MessageBox.Show("Boş Alan Bırakmayınız");
+                string tur = "camasirmak";
+                satinAl stn = new satinAl();
+                stn.urunleriAl(textBox1.Text, textBox2.Text, comboBox3.Text, tur);
+                stn.ShowDialog();
             }
             else
             {
-
-                if (stok > a)
-                {
-                    MessageBox.Show("stok sayısı yeterli değil");
-                }
-                else
-                {
-                    toplam = a - stok;
-                    MySqlCommand cmd1 = new MySqlCommand("update camasirmak set cmStok = '" + toplam + "' where cmModel = '" + textBox2.Text + "'", con);
-                    MySqlDataReader reader = cmd1.ExecuteReader();
-                    while (reader.Read())
-                    {
-
-                    }
-                    MessageBox.Show("Satın Alınmıştır");
-                    reader.Close();
-                    cmd1.Dispose();
-                }
-
+                MessageBox.Show("Boş Alan Bırakmayınız");
             }
-
-
-
-
-
-            cmd.Dispose();
-            con.Close();
-
 
         }
 

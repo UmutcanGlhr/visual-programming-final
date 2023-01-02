@@ -48,5 +48,18 @@ namespace TeknoMarkt
             this.Close();
             
         }
+
+        private void ıconButton4_Click(object sender, EventArgs e)
+        {
+            UrunEkle urn = new UrunEkle();
+            
+            urn.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Satis sts = new Satis();
+            sts.ShowDialog();
+        }
     }  
 }

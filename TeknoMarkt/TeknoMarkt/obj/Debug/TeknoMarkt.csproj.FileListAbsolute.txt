@@ -20,3 +20,7 @@ C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.Profilim.
 C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.Mağaza.resources
 C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.Buzdolabı.resources
 C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.CamasırMak.resources
+C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.UrunEkle.resources
+C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.ayarlar.resources
+C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.satinAl.resources
+C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.Satis.resources

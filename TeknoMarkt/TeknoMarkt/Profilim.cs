@@ -13,6 +13,7 @@ namespace TeknoMarkt
 {
     public partial class Profilim : Form
     {
+        
 
         string name;
         MySqlConnection con = new MySqlConnection("Server=localhost;Database=teknomarkt;Uid=root;Pwd='mysql1234';");
@@ -62,6 +63,13 @@ namespace TeknoMarkt
         public void kapa()
         {
             this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ayarlar ayr = new ayarlar();
+            ayr.prfal(name);
+            ayr.ShowDialog();
         }
     }
 }
