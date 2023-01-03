@@ -24,3 +24,4 @@ C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.UrunEkle.
 C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.ayarlar.resources
 C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.satinAl.resources
 C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.Satis.resources
+C:\Users\umutc\source\repos\TeknoMarkt\TeknoMarkt\obj\Debug\TeknoMarkt.kur.resources

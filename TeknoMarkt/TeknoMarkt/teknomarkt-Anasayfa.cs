@@ -61,5 +61,11 @@ namespace TeknoMarkt
             Satis sts = new Satis();
             sts.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            kur kr = new kur();
+            kr.ShowDialog();
+        }
     }  
 }

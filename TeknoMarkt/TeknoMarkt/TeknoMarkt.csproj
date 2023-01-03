@@ -84,6 +84,12 @@
     <Compile Include="KayıtoOl.Designer.cs">
       <DependentUpon>KayıtoOl.cs</DependentUpon>
     </Compile>
+    <Compile Include="kur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kur.Designer.cs">
+      <DependentUpon>kur.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mağaza.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KayıtoOl.resx">
       <DependentUpon>KayıtoOl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kur.resx">
+      <DependentUpon>kur.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mağaza.resx">
       <DependentUpon>Mağaza.cs</DependentUpon>
